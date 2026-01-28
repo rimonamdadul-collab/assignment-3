@@ -3,9 +3,280 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>third assignment</title>
+    <!-- disy ui -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+
+<!-- font link -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+<style>
+    font-sora{
+  font-family: "Sora", sans-serif;
+}
+</style>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+<body class=" font-sora">
+<header class="container mx-auto">
+   <nav class="my-16 items-center lg:mx-10">
+    <div class="navbar bg-base-100">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+      </div>
+      
+    </div>
+    <div class=""><a class="btn btn-ghost text-xl "><img src="c2-assets/logo-header.png" alt=""></a></div>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+      <li><a class="text-xl">Product</a></li>
+      <li>
+       <a class="text-xl">Services</a>
+      </li>
+      <li><a class="text-xl">Contact us</a></li>
+    </ul>
+  </div>
+  <div class="navbar-end ">
+    <a class="hidden lg:flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 mr-3">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+</svg>
+</a>
+    <a class=" hidden lg:flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 mr-3">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+</svg>
+</a>
+    <a class="hidden lg:flex btn border border-[#179800] px-8 text-black mr-3">Login</a>
+    <a class="hidden lg:flex btn bg-[#179800] px-8 text-white">Register</a>
+  </div>
+</div>
+   </nav>
+<section class="mb-20 ">
+  <div class="">
+<div class="grid grid-cols-1 lg:grid-rows-1 space-y-4">
+  <div class="text-center space-y-5">
+<h2 class="text-3xl md:text-4xl lg:text-6xl font-semibold">Freshness <span class="text-[#179800]"> You Can</span><br>
+<span class="text-[#179800]">Count</span> On, Prices You’ll Love!</h2>
+<p class="text-xl lg:w-[799px]  lg: w-full mx-auto">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+  </div>
+  <div class=" mx-auto">
+    <div class="mx-auto"><img class="w-[495px] md:w-3/4 lg:w-[1030px]" src="c2-assets/hero-vegetables.png" alt=""></div>
+  </div>
+</div>
+  </div>
+</section>
+                                        <!-- servies -->
+  <section>
+      <h2 class="text-4xl text-[#179800] font-semibold lg:ml-24">Services</h2>
+    <div class=" gap-5 grid grid-cols-1 lg:grid-cols-3 my-20">
+      
+<div class="card bg-[#dbcfb6] w-96 shadow-sm lg:mx-auto">
+  <figure class="mt-8">
+    <img class=" bg-[#FFFFFF] rounded-full p-7"
+      src="c2-assets/service.png"
+      alt="Shoes" />
+  </figure>
+  <div class="card-body text-center">
+    <h2 class=" text-2xl font-semibold ">24/7 Services </h2>
+    <p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+  </div>
+</div>
+
+<!-- card 2 -->
+ <div class="card bg-[#dbcfb6] w-96 shadow-sm lg:mr-3">
+  <figure class="mt-8">
+    <img class=" bg-[#FFFFFF] rounded-full p-7"
+      src="c2-assets/delivery.png"
+      alt="Shoes" />
+  </figure>
+  <div class="card-body text-center">
+    <h2 class=" text-2xl font-semibold ">Fast Delivery</h2>
+    <p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+  </div>
+</div>
+<!-- card 3 -->
+ <div class="card bg-[#dbcfb6] w-96 shadow-sm ml-0">
+  <figure class="mt-8">
+    <img class=" bg-[#FFFFFF] rounded-full p-7"
+      src="c2-assets/healthy.png"
+      alt="Shoes" />
+  </figure>
+  <div class="card-body text-center">
+    <h2 class=" text-2xl font-semibold ">Healthy Products </h2>
+    <p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+  </div>
+</div>
+    </div>
+
+  </section>
+    </header>
+    <main>
+  <section class="w-[1600px] h-[775px] bg-[#EFEBE3]">
+    <h2 class="text-4xl text-[#179800] font-semibold">Popular Products</h2>
+    <article class="w-full mx-auto lg:p-16">
+<div class="grid grid-cols-2 grid-rows-4  lg:grid-cols-4 mx-auto w-full">
+ 
+    <div class="bg-green-400 rounded-xl space-y-5 pt-14 lg:w-[424px] row-span-3">
+      <h2 class="text-white text-3xl pl-8 font-medium">30% off</h2>
+      <p class="text-[#111111] pl-8">discover a world of treats, toys, and <br> essentials handpicked for
+      </p>
+      <button class=" py-4 px-8 text-black bg-slate-200 text-xl rounded-lg">Buy Now</button>
+      <!-- image -->
+     <div class="flex items-end"><img class="pl-24" src="c2-assets/vegetable-offer.png" alt=""></div>
+    </div>
+    <!-- onion -->
+     
+<div class="lg:ml-16 items-center grid bg-[#FFFFFF] grid-cols-2 w-[275px] lg:h-[100px] rounded-lg">
+  <div class="flex items-start justify-center"><img class="bg-gray-300 rounded-md" src="c2-assets/onion.png" alt=""></div>
+
+  <div>
+
+<div class="flex">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-yellow-400">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+</svg> <h2>4.5</h2>
+</div>
+<h2 class="text-xl font-medium">0nion 1 Kg</h2>
+<h2 class="font-medium">$39.99</h2>
+  </div>
+
+   </div>
+
+   <div class="lg:ml-16 items-center grid bg-[#FFFFFF] grid-cols-2 w-[275px] lg:h-[100px] rounded-lg">
+  <div class="flex items-start justify-center"><img class="bg-gray-300 rounded-md" src="c2-assets/onion.png" alt=""></div>
+
+  <div>
+
+<div class="flex">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-yellow-400">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+</svg> <h2>4.5</h2>
+</div>
+<h2 class="text-xl font-medium">0nion 1 Kg</h2>
+<h2 class="font-medium">$39.99</h2>
+  </div>
+
+   </div>
+   <div class="lg:ml-16 items-center grid bg-[#FFFFFF] grid-cols-2 w-[275px] lg:h-[100px] rounded-lg">
+  <div class="flex items-start justify-center"><img class="bg-gray-300 rounded-md" src="c2-assets/onion.png" alt=""></div>
+
+  <div>
+
+<div class="flex">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-yellow-400">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+</svg> <h2>4.5</h2>
+</div>
+<h2 class="text-xl font-medium">0nion 1 Kg</h2>
+<h2 class="font-medium">$39.99</h2>
+  </div>
+
+   </div>
+   
+   <div class="lg:ml-16 items-center grid bg-[#FFFFFF] grid-cols-2 w-[275px] lg:h-[100px] rounded-lg">
+  <div class="flex items-start justify-center"><img class="bg-gray-300 rounded-md" src="c2-assets/onion.png" alt=""></div>
+
+  <div>
+
+<div class="flex">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-yellow-400">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+</svg> <h2>4.5</h2>
+</div>
+<h2 class="text-xl font-medium">0nion 1 Kg</h2>
+<h2 class="font-medium">$39.99</h2>
+  </div>
+
+   </div>
+   <div class="lg:ml-16 items-center grid bg-[#FFFFFF] grid-cols-2 w-[275px] lg:h-[100px] rounded-lg">
+  <div class="flex items-start justify-center"><img class="bg-gray-300 rounded-md" src="c2-assets/onion.png" alt=""></div>
+
+  <div>
+
+<div class="flex">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-yellow-400">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+</svg> <h2>4.5</h2>
+</div>
+<h2 class="text-xl font-medium">0nion 1 Kg</h2>
+<h2 class="font-medium">$39.99</h2>
+  </div>
+
+   </div>
+  
+   <div class="lg:ml-16 items-center grid bg-[#FFFFFF] grid-cols-2 w-[275px] lg:h-[100px] rounded-lg">
+  <div class="flex items-start justify-center"><img class="bg-gray-300 rounded-md" src="c2-assets/onion.png" alt=""></div>
+
+  <div>
+
+<div class="flex">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-yellow-400">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+</svg> <h2>4.5</h2>
+</div>
+<h2 class="text-xl font-medium">0nion 1 Kg</h2>
+<h2 class="font-medium">$39.99</h2>
+  </div>
+
+   </div>
+<div class="lg:ml-16 items-center grid bg-[#FFFFFF] grid-cols-2 w-[275px] lg:h-[100px] rounded-lg">
+  <div class="flex items-start justify-center"><img class="bg-gray-300 rounded-md" src="c2-assets/onion.png" alt=""></div>
+
+  <div>
+
+<div class="flex">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-yellow-400">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+</svg> <h2>4.5</h2>
+</div>
+<h2 class="text-xl font-medium">0nion 1 Kg</h2>
+<h2 class="font-medium">$39.99</h2>
+  </div>
+
+   </div>
+
+   <div class="lg:ml-16 items-center grid bg-[#FFFFFF] grid-cols-2 w-[275px] lg:h-[100px] rounded-lg">
+  <div class="flex items-start justify-center"><img class="bg-gray-300 rounded-md" src="c2-assets/onion.png" alt=""></div>
+
+  <div>
+
+<div class="flex">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-yellow-400">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+</svg> <h2>4.5</h2>
+</div>
+<h2 class="text-xl font-medium">0nion 1 Kg</h2>
+<h2 class="font-medium">$39.99</h2>
+  </div>
+
+   </div>
+   <div class="lg:ml-16 items-center grid bg-[#FFFFFF] grid-cols-2 w-[275px] lg:h-[100px] rounded-lg">
+  <div class="flex items-start justify-center"><img class="bg-gray-300 rounded-md" src="c2-assets/onion.png" alt=""></div>
+
+  <div>
+
+<div class="flex">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-yellow-400">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+</svg> <h2>4.5</h2>
+</div>
+<h2 class="text-xl font-medium">0nion 1 Kg</h2>
+<h2 class="font-medium">$39.99</h2>
+  </div>
+
+   </div>
+
+   
+  </div>
+</article>
+  </section>
+    </main>
 </body>
 </html>
